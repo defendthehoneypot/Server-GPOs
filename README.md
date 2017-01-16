@@ -47,8 +47,12 @@ Computer Configuration > Preferences > Control Panel Settings > Local Users and 
 
 Policy Definitions - I have included all the current policy definitions that I used to create the client and server GPOs, although I highly recommend you download them yourself.
 
-Microsoft Office 2010/2013/2016 32bit admx/adml files.
+Microsoft Office admx/adml files.
 
-Microsoft MSS Settings - MSS Install instructions
+1. Office 2010 - https://www.microsoft.com/en-us/download/details.aspx?id=18968
 
-Group Policy Objects - GPO backup files
+2. Office 2013 - https://www.microsoft.com/en-us/download/details.aspx?id=35554
+
+3. Office 2016 - https://www.microsoft.com/en-us/download/details.aspx?id=49030
+
+Microsoft MSS Settings - http://serverfault.com/questions/655914/how-can-i-enable-mss-group-policy-settings-windows-server-2012
