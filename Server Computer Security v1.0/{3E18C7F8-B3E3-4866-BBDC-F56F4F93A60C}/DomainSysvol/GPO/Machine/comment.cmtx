@@ -1,0 +1,880 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<policyComments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://www.microsoft.com/GroupPolicy/CommentDefinitions">
+  <policyNamespaces>
+    <using prefix="ns0" namespace="FullArmor.Policies.0EF0F32B_7305_4FC7_BBEB_D43DCC622C81"></using>
+    <using prefix="ns1" namespace="Microsoft.Policies.ApplicationCompatibility"></using>
+    <using prefix="ns2" namespace="Microsoft.Policies.ApplicationDiagnostics"></using>
+    <using prefix="ns3" namespace="Microsoft.Policies.Appx"></using>
+    <using prefix="ns4" namespace="Microsoft.Policies.Auditing"></using>
+    <using prefix="ns5" namespace="Microsoft.Policies.AutoPlay"></using>
+    <using prefix="ns6" namespace="Microsoft.Policies.Biometrics"></using>
+    <using prefix="ns7" namespace="Microsoft.Policies.ControlPanelDisplay"></using>
+    <using prefix="ns8" namespace="Microsoft.Policies.CredentialsUI"></using>
+    <using prefix="ns9" namespace="Microsoft.Policies.CypherStrength"></using>
+    <using prefix="ns10" namespace="Microsoft.Policies.DeviceInstallation"></using>
+    <using prefix="ns11" namespace="Microsoft.Policies.DeviceSoftwareSetup"></using>
+    <using prefix="ns12" namespace="Microsoft.Policies.DigitalRights2"></using>
+    <using prefix="ns13" namespace="Microsoft.Policies.EventLogs"></using>
+    <using prefix="ns14" namespace="Microsoft.Policies.Globalization"></using>
+    <using prefix="ns15" namespace="Microsoft.Policies.GroupPolicy"></using>
+    <using prefix="ns16" namespace="Microsoft.Policies.InkWatson"></using>
+    <using prefix="ns17" namespace="Microsoft.Policies.InternetCommunicationManagement"></using>
+    <using prefix="ns18" namespace="Microsoft.Policies.InternetExplorer"></using>
+    <using prefix="ns19" namespace="Microsoft.Policies.LinkLayerTopology"></using>
+    <using prefix="ns20" namespace="Microsoft.Policies.MSDT"></using>
+    <using prefix="ns21" namespace="Microsoft.Policies.MSI"></using>
+    <using prefix="ns22" namespace="Microsoft.Policies.MediaPlayer"></using>
+    <using prefix="ns23" namespace="Microsoft.Policies.NetworkConnections"></using>
+    <using prefix="ns24" namespace="Microsoft.Policies.PerformancePerftrack"></using>
+    <using prefix="ns25" namespace="Microsoft.Policies.PlugandPlay"></using>
+    <using prefix="ns26" namespace="Microsoft.Policies.PowerManagement"></using>
+    <using prefix="ns27" namespace="Microsoft.Policies.Printing"></using>
+    <using prefix="ns28" namespace="Microsoft.Policies.RemoteAssistance"></using>
+    <using prefix="ns29" namespace="Microsoft.Policies.RemoteProcedureCalls"></using>
+    <using prefix="ns30" namespace="Microsoft.Policies.ScriptedDiagnostics"></using>
+    <using prefix="ns31" namespace="Microsoft.Policies.Sensors"></using>
+    <using prefix="ns32" namespace="Microsoft.Policies.Servicing"></using>
+    <using prefix="ns33" namespace="Microsoft.Policies.TCPIP"></using>
+    <using prefix="ns34" namespace="Microsoft.Policies.TerminalServer"></using>
+    <using prefix="ns35" namespace="Microsoft.Policies.WindowsConnectNow"></using>
+    <using prefix="ns36" namespace="Microsoft.Policies.WindowsDefender"></using>
+    <using prefix="ns37" namespace="Microsoft.Policies.WindowsErrorReporting"></using>
+    <using prefix="ns38" namespace="Microsoft.Policies.WindowsExplorer"></using>
+    <using prefix="ns39" namespace="Microsoft.Policies.WindowsExplorer2"></using>
+    <using prefix="ns40" namespace="Microsoft.Policies.WindowsLogon"></using>
+    <using prefix="ns41" namespace="Microsoft.Policies.WindowsLogon2"></using>
+    <using prefix="ns42" namespace="Microsoft.Policies.WindowsRemoteManagement"></using>
+    <using prefix="ns43" namespace="Microsoft.Policies.WindowsStore"></using>
+  </policyNamespaces>
+  <comments>
+    <admTemplate>
+      <comment policyRef="ns0:POL_DriverLoadPolicy_Name" commentText="$(resource.ns0_POL_DriverLoadPolicy_Name)"></comment>
+      <comment policyRef="ns1:AppCompatTurnOffProgramInventory" commentText="$(resource.ns1_AppCompatTurnOffProgramInventory)"></comment>
+      <comment policyRef="ns2:DisablePcaUIPolicy" commentText="$(resource.ns2_DisablePcaUIPolicy)"></comment>
+      <comment policyRef="ns3:AppxDeploymentAllowAllTrustedApps" commentText="$(resource.ns3_AppxDeploymentAllowAllTrustedApps)"></comment>
+      <comment policyRef="ns4:IncludeCmdLine" commentText="$(resource.ns4_IncludeCmdLine)"></comment>
+      <comment policyRef="ns5:Autorun" commentText="$(resource.ns5_Autorun)"></comment>
+      <comment policyRef="ns5:NoAutoplayfornonVolume" commentText="$(resource.ns5_NoAutoplayfornonVolume)"></comment>
+      <comment policyRef="ns5:NoAutorun" commentText="$(resource.ns5_NoAutorun)"></comment>
+      <comment policyRef="ns6:Biometrics_EnableBio" commentText="$(resource.ns6_Biometrics_EnableBio)"></comment>
+      <comment policyRef="ns7:CPL_Personalization_NoLockScreenSlideshow" commentText="$(resource.ns7_CPL_Personalization_NoLockScreenSlideshow)"></comment>
+      <comment policyRef="ns8:DisablePasswordReveal" commentText="$(resource.ns8_DisablePasswordReveal)"></comment>
+      <comment policyRef="ns8:EnumerateAdministrators" commentText="$(resource.ns8_EnumerateAdministrators)"></comment>
+      <comment policyRef="ns9:SSLCipherSuiteOrder" commentText="$(resource.ns9_SSLCipherSuiteOrder)"></comment>
+      <comment policyRef="ns10:DeviceInstall_SystemRestore" commentText="$(resource.ns10_DeviceInstall_SystemRestore)"></comment>
+      <comment policyRef="ns10:DeviceManagement_RPCInterface_Allow" commentText="$(resource.ns10_DeviceManagement_RPCInterface_Allow)"></comment>
+      <comment policyRef="ns11:DeviceInstall_GenericDriverSendToWER" commentText="$(resource.ns11_DeviceInstall_GenericDriverSendToWER)"></comment>
+      <comment policyRef="ns11:DeviceInstall_RequestAdditionalSoftwareSendToWER" commentText="$(resource.ns11_DeviceInstall_RequestAdditionalSoftwareSendToWER)"></comment>
+      <comment policyRef="ns11:DeviceMetadata_PreventDeviceMetadataFromNetwork" commentText="$(resource.ns11_DeviceMetadata_PreventDeviceMetadataFromNetwork)"></comment>
+      <comment policyRef="ns11:DriverSearchPlaces_DontPromptForWindowsUpdate_2" commentText="$(resource.ns11_DriverSearchPlaces_DontPromptForWindowsUpdate_2)"></comment>
+      <comment policyRef="ns11:DriverSearchPlaces_SearchOrderConfiguration" commentText="$(resource.ns11_DriverSearchPlaces_SearchOrderConfiguration)"></comment>
+      <comment policyRef="ns11:DriverSearchPlaces_SearchServerConfiguration" commentText="$(resource.ns11_DriverSearchPlaces_SearchServerConfiguration)"></comment>
+      <comment policyRef="ns12:DisableOnline" commentText="$(resource.ns12_DisableOnline)"></comment>
+      <comment policyRef="ns14:BlockUserInputMethodsForSignIn" commentText="$(resource.ns14_BlockUserInputMethodsForSignIn)"></comment>
+      <comment policyRef="ns15:CSE_Registry" commentText="$(resource.ns15_CSE_Registry)"></comment>
+      <comment policyRef="ns15:DisableBackgroundPolicy" commentText="$(resource.ns15_DisableBackgroundPolicy)"></comment>
+      <comment policyRef="ns16:PreventHandwritingErrorReports_2" commentText="$(resource.ns16_PreventHandwritingErrorReports_2)"></comment>
+      <comment policyRef="ns17:CEIPEnable" commentText="$(resource.ns17_CEIPEnable)"></comment>
+      <comment policyRef="ns17:DisableHTTPPrinting_2" commentText="$(resource.ns17_DisableHTTPPrinting_2)"></comment>
+      <comment policyRef="ns17:DriverSearchPlaces_DontSearchWindowsUpdate" commentText="$(resource.ns17_DriverSearchPlaces_DontSearchWindowsUpdate)"></comment>
+      <comment policyRef="ns17:EventViewer_DisableLinks" commentText="$(resource.ns17_EventViewer_DisableLinks)"></comment>
+      <comment policyRef="ns17:ShellNoUseInternetOpenWith_2" commentText="$(resource.ns17_ShellNoUseInternetOpenWith_2)"></comment>
+      <comment policyRef="ns17:ShellNoUseStoreOpenWith_2" commentText="$(resource.ns17_ShellNoUseStoreOpenWith_2)"></comment>
+      <comment policyRef="ns18:Allow_Basic_Feed_Auth_In_Clear" commentText="$(resource.ns18_Allow_Basic_Feed_Auth_In_Clear)"></comment>
+      <comment policyRef="ns18:Disable_Downloading_of_Enclosures" commentText="$(resource.ns18_Disable_Downloading_of_Enclosures)"></comment>
+      <comment policyRef="ns19:LLTD_EnableLLTDIO" commentText="$(resource.ns19_LLTD_EnableLLTDIO)"></comment>
+      <comment policyRef="ns19:LLTD_EnableRspndr" commentText="$(resource.ns19_LLTD_EnableRspndr)"></comment>
+      <comment policyRef="ns20:MsdtSupportProvider" commentText="$(resource.ns20_MsdtSupportProvider)"></comment>
+      <comment policyRef="ns21:AlwaysInstallElevated_2" commentText="$(resource.ns21_AlwaysInstallElevated_2)"></comment>
+      <comment policyRef="ns21:EnableUserControl" commentText="$(resource.ns21_EnableUserControl)"></comment>
+      <comment policyRef="ns21:MSI_DisableLUAPatching" commentText="$(resource.ns21_MSI_DisableLUAPatching)"></comment>
+      <comment policyRef="ns21:SafeForScripting" commentText="$(resource.ns21_SafeForScripting)"></comment>
+      <comment policyRef="ns22:DisableAutoUpdate" commentText="$(resource.ns22_DisableAutoUpdate)"></comment>
+      <comment policyRef="ns22:DisableSetupFirstUseConfiguration" commentText="$(resource.ns22_DisableSetupFirstUseConfiguration)"></comment>
+      <comment policyRef="ns23:NC_AllowNetBridge_NLA" commentText="$(resource.ns23_NC_AllowNetBridge_NLA)"></comment>
+      <comment policyRef="ns23:NC_ForceTunneling" commentText="$(resource.ns23_NC_ForceTunneling)"></comment>
+      <comment policyRef="ns23:NC_StdDomainUserSetLocation" commentText="$(resource.ns23_NC_StdDomainUserSetLocation)"></comment>
+      <comment policyRef="ns24:WdiScenarioExecutionPolicy" commentText="$(resource.ns24_WdiScenarioExecutionPolicy)"></comment>
+      <comment policyRef="ns25:P2P_Disabled" commentText="$(resource.ns25_P2P_Disabled)"></comment>
+      <comment policyRef="ns26:VideoPowerDownTimeOutAC_2" commentText="$(resource.ns26_VideoPowerDownTimeOutAC_2)"></comment>
+      <comment policyRef="ns26:VideoPowerDownTimeOutDC_2" commentText="$(resource.ns26_VideoPowerDownTimeOutDC_2)"></comment>
+      <comment policyRef="ns27:DoNotInstallCompatibleDriverFromWindowsUpdate" commentText="$(resource.ns27_DoNotInstallCompatibleDriverFromWindowsUpdate)"></comment>
+      <comment policyRef="ns28:RA_Logging" commentText="$(resource.ns28_RA_Logging)"></comment>
+      <comment policyRef="ns28:RA_Unsolicit" commentText="$(resource.ns28_RA_Unsolicit)"></comment>
+      <comment policyRef="ns29:RpcEnableAuthEpResolution" commentText="$(resource.ns29_RpcEnableAuthEpResolution)"></comment>
+      <comment policyRef="ns29:RpcRestrictRemoteClients" commentText="$(resource.ns29_RpcRestrictRemoteClients)"></comment>
+      <comment policyRef="ns30:BetterWhenConnected" commentText="$(resource.ns30_BetterWhenConnected)"></comment>
+      <comment policyRef="ns31:DisableLocation_2" commentText="$(resource.ns31_DisableLocation_2)"></comment>
+      <comment policyRef="ns32:Servicing" commentText="$(resource.ns32_Servicing)"></comment>
+      <comment policyRef="ns33:6to4_State" commentText="$(resource.ns33_6to4_State)"></comment>
+      <comment policyRef="ns33:IPHTTPS_ClientState" commentText="$(resource.ns33_IPHTTPS_ClientState)"></comment>
+      <comment policyRef="ns33:IP_Stateless_Autoconfiguration_Limits_State" commentText="$(resource.ns33_IP_Stateless_Autoconfiguration_Limits_State)"></comment>
+      <comment policyRef="ns33:ISATAP_State" commentText="$(resource.ns33_ISATAP_State)"></comment>
+      <comment policyRef="ns33:Teredo_State" commentText="$(resource.ns33_Teredo_State)"></comment>
+      <comment policyRef="ns34:TS_CLIENT_COM" commentText="$(resource.ns34_TS_CLIENT_COM)"></comment>
+      <comment policyRef="ns34:TS_CLIENT_DISABLE_PASSWORD_SAVING_2" commentText="$(resource.ns34_TS_CLIENT_DISABLE_PASSWORD_SAVING_2)"></comment>
+      <comment policyRef="ns34:TS_CLIENT_DRIVE_M" commentText="$(resource.ns34_TS_CLIENT_DRIVE_M)"></comment>
+      <comment policyRef="ns34:TS_CLIENT_LPT" commentText="$(resource.ns34_TS_CLIENT_LPT)"></comment>
+      <comment policyRef="ns34:TS_CLIENT_PNP" commentText="$(resource.ns34_TS_CLIENT_PNP)"></comment>
+      <comment policyRef="ns34:TS_DISABLE_CONNECTIONS" commentText="$(resource.ns34_TS_DISABLE_CONNECTIONS)"></comment>
+      <comment policyRef="ns34:TS_ENCRYPTION_POLICY" commentText="$(resource.ns34_TS_ENCRYPTION_POLICY)"></comment>
+      <comment policyRef="ns34:TS_NoDisconnectMenu" commentText="$(resource.ns34_TS_NoDisconnectMenu)"></comment>
+      <comment policyRef="ns34:TS_PASSWORD" commentText="$(resource.ns34_TS_PASSWORD)"></comment>
+      <comment policyRef="ns34:TS_RPC_ENCRYPTION" commentText="$(resource.ns34_TS_RPC_ENCRYPTION)"></comment>
+      <comment policyRef="ns34:TS_SESSIONS_Disconnected_Timeout_2" commentText="$(resource.ns34_TS_SESSIONS_Disconnected_Timeout_2)"></comment>
+      <comment policyRef="ns34:TS_SESSIONS_Idle_Limit_2" commentText="$(resource.ns34_TS_SESSIONS_Idle_Limit_2)"></comment>
+      <comment policyRef="ns34:TS_SMART_CARD" commentText="$(resource.ns34_TS_SMART_CARD)"></comment>
+      <comment policyRef="ns34:TS_TEMP_DELETE" commentText="$(resource.ns34_TS_TEMP_DELETE)"></comment>
+      <comment policyRef="ns34:TS_TEMP_PER_SESSION" commentText="$(resource.ns34_TS_TEMP_PER_SESSION)"></comment>
+      <comment policyRef="ns35:WCN_DisableWcnUi_2" commentText="$(resource.ns35_WCN_DisableWcnUi_2)"></comment>
+      <comment policyRef="ns35:WCN_EnableRegistrar" commentText="$(resource.ns35_WCN_EnableRegistrar)"></comment>
+      <comment policyRef="ns36:SpynetReporting" commentText="$(resource.ns36_SpynetReporting)"></comment>
+      <comment policyRef="ns37:WerArchive_2" commentText="$(resource.ns37_WerArchive_2)"></comment>
+      <comment policyRef="ns37:WerBypassDataThrottling_2" commentText="$(resource.ns37_WerBypassDataThrottling_2)"></comment>
+      <comment policyRef="ns37:WerCER" commentText="$(resource.ns37_WerCER)"></comment>
+      <comment policyRef="ns37:WerConsentOverride_2" commentText="$(resource.ns37_WerConsentOverride_2)"></comment>
+      <comment policyRef="ns37:WerDefaultConsent_2" commentText="$(resource.ns37_WerDefaultConsent_2)"></comment>
+      <comment policyRef="ns37:WerDisable_2" commentText="$(resource.ns37_WerDisable_2)"></comment>
+      <comment policyRef="ns37:WerDoNotShowUI" commentText="$(resource.ns37_WerDoNotShowUI)"></comment>
+      <comment policyRef="ns37:WerNoLogging_2" commentText="$(resource.ns37_WerNoLogging_2)"></comment>
+      <comment policyRef="ns37:WerNoSecondLevelData_2" commentText="$(resource.ns37_WerNoSecondLevelData_2)"></comment>
+      <comment policyRef="ns37:WerQueue_2" commentText="$(resource.ns37_WerQueue_2)"></comment>
+      <comment policyRef="ns38:EnableSmartScreen" commentText="$(resource.ns38_EnableSmartScreen)"></comment>
+      <comment policyRef="ns38:ShellProtocolProtectedModeTitle_2" commentText="$(resource.ns38_ShellProtocolProtectedModeTitle_2)"></comment>
+      <comment policyRef="ns39:NoDataExecutionPrevention" commentText="$(resource.ns39_NoDataExecutionPrevention)"></comment>
+      <comment policyRef="ns39:NoHeapTerminationOnCorruption" commentText="$(resource.ns39_NoHeapTerminationOnCorruption)"></comment>
+      <comment policyRef="ns40:DisableLockScreenAppNotifications" commentText="$(resource.ns40_DisableLockScreenAppNotifications)"></comment>
+      <comment policyRef="ns40:DontDisplayNetworkSelectionUI" commentText="$(resource.ns40_DontDisplayNetworkSelectionUI)"></comment>
+      <comment policyRef="ns40:EnumerateLocalUsers" commentText="$(resource.ns40_EnumerateLocalUsers)"></comment>
+      <comment policyRef="ns40:LogonType" commentText="$(resource.ns40_LogonType)"></comment>
+      <comment policyRef="ns41:AutomaticRestartSignOn" commentText="$(resource.ns41_AutomaticRestartSignOn)"></comment>
+      <comment policyRef="ns41:ReportCachedLogonPolicyDescription" commentText="$(resource.ns41_ReportCachedLogonPolicyDescription)"></comment>
+      <comment policyRef="ns42:AllowBasic_1" commentText="$(resource.ns42_AllowBasic_1)"></comment>
+      <comment policyRef="ns42:AllowBasic_2" commentText="$(resource.ns42_AllowBasic_2)"></comment>
+      <comment policyRef="ns42:AllowUnencrypted_1" commentText="$(resource.ns42_AllowUnencrypted_1)"></comment>
+      <comment policyRef="ns42:AllowUnencrypted_2" commentText="$(resource.ns42_AllowUnencrypted_2)"></comment>
+      <comment policyRef="ns42:DisableRunAs" commentText="$(resource.ns42_DisableRunAs)"></comment>
+      <comment policyRef="ns42:DisallowDigest" commentText="$(resource.ns42_DisallowDigest)"></comment>
+      <comment policyRef="ns43:DisableAutoInstall" commentText="$(resource.ns43_DisableAutoInstall)"></comment>
+      <comment policyRef="ns43:RemoveWindowsStore_2" commentText="$(resource.ns43_RemoveWindowsStore_2)"></comment>
+    </admTemplate>
+  </comments>
+  <resources minRequiredRevision="1.0">
+    <stringTable>
+      <string id="ns0_POL_DriverLoadPolicy_Name">Rule Title:  Early Launch Antimalware, Boot-Start Driver Initialization Policy must be enabled and configured to only Good and Unknown.
+STIG ID: WN12-CC-000027  Rule ID: SV-51608r1_rule  Vuln ID: V-36679
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns1_AppCompatTurnOffProgramInventory">Rule Title:  The Application Compatibility Program Inventory must be prevented from collecting data and sending the information to Microsoft.
+STIG ID: WN12-CC-000071  Rule ID: SV-53127r1_rule  Vuln ID: V-21971
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns2_DisablePcaUIPolicy">Rule Title:  The detection of compatibility issues for applications and drivers must be turned off.
+STIG ID: WN12-CC-000065  Rule ID: SV-51737r2_rule  Vuln ID: V-36696
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns3_AppxDeploymentAllowAllTrustedApps">Rule Title:  Trusted app installation must be enabled to allow for signed enterprise line of business apps.
+STIG ID: WN12-CC-000070  Rule ID: SV-51738r1_rule  Vuln ID: V-36697
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns4_IncludeCmdLine">Rule Title:  Command line data must be prevented from inclusion in process creation events (Windows 2012 R2).
+STIG ID: WN12-CC-000139  Rule ID: SV-56344r2_rule  Vuln ID: V-43239
+Severity: CAT II Class: Unclass
+CCI: CCI-000135
+NIST SP 800-53 :: AU-3 (1)
+NIST SP 800-53A :: AU-3 (1).1 (ii)
+NIST SP 800-53 Revision 4 :: AU-3 (1)</string>
+      <string id="ns5_Autorun">Rule Title:  Autoplay must be disabled for all drives.
+STIG ID: WN12-CC-000074  Rule ID: SV-52879r2_rule  Vuln ID: V-2374
+Severity: CAT I Class: Unclass
+CCI: CCI-001764
+NIST SP 800-53 Revision 4 :: CM-7 (2)</string>
+      <string id="ns5_NoAutoplayfornonVolume">Rule Title:  Autoplay must be turned off for non-volume devices.
+STIG ID: WN12-CC-000072  Rule ID: SV-53126r2_rule  Vuln ID: V-21973
+Severity: CAT I Class: Unclass
+CCI: CCI-001764
+NIST SP 800-53 Revision 4 :: CM-7 (2)</string>
+      <string id="ns5_NoAutorun">Rule Title:  The default Autorun behavior must be configured to prevent Autorun commands.
+STIG ID: WN12-CC-000073  Rule ID: SV-53124r2_rule  Vuln ID: V-22692
+Severity: CAT I Class: Unclass
+CCI: CCI-001764
+NIST SP 800-53 Revision 4 :: CM-7 (2)</string>
+      <string id="ns6_Biometrics_EnableBio">Rule Title:  The use of biometrics must be disabled.
+STIG ID: WN12-CC-000075  Rule ID: SV-51739r1_rule  Vuln ID: V-36698
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns7_CPL_Personalization_NoLockScreenSlideshow">Rule Title:  The display of slide shows on the lock screen must be disabled (Windows 2012 R2).
+STIG ID: WN12-CC-000138  Rule ID: SV-56343r2_rule  Vuln ID: V-43238
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns8_DisablePasswordReveal">Rule Title:  The password reveal button must not be displayed.
+STIG ID: WN12-CC-000076  Rule ID: SV-51740r1_rule  Vuln ID: V-36700
+Severity: CAT II Class: Unclass
+CCI: CCI-000206
+NIST SP 800-53 :: IA-6
+NIST SP 800-53A :: IA-6.1
+NIST SP 800-53 Revision 4 :: IA-6</string>
+      <string id="ns8_EnumerateAdministrators">Rule Title:  The system must require username and password to elevate a running application.
+STIG ID: WN12-CC-000077  Rule ID: SV-52955r1_rule  Vuln ID: V-14243
+Severity: CAT II Class: Unclass
+CCI: CCI-001084
+NIST SP 800-53 :: SC-3
+NIST SP 800-53A :: SC-3.1 (ii)
+NIST SP 800-53 Revision 4 :: SC-3</string>
+      <string id="ns9_SSLCipherSuiteOrder">Force strong Ciphers</string>
+      <string id="ns10_DeviceInstall_SystemRestore">Rule Title:  A system restore point must be created when a new device driver is installed.
+STIG ID: WN12-CC-000021  Rule ID: SV-53099r1_rule  Vuln ID: V-15701
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns10_DeviceManagement_RPCInterface_Allow">Rule Title:  Remote access to the Plug and Play interface must be disabled for device installation.
+STIG ID: WN12-CC-000019  Rule ID: SV-53094r1_rule  Vuln ID: V-15700
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns11_DeviceInstall_GenericDriverSendToWER">Rule Title:  An Error Report must not be sent when a generic device driver is installed.
+STIG ID: WN12-CC-000020  Rule ID: SV-53105r1_rule  Vuln ID: V-15702
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns11_DeviceInstall_RequestAdditionalSoftwareSendToWER">Rule Title:  Windows must be prevented from sending an error report when a device driver requests additional software during installation.
+STIG ID: WN12-CC-000023  Rule ID: SV-52962r1_rule  Vuln ID: V-28504
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns11_DeviceMetadata_PreventDeviceMetadataFromNetwork">Rule Title:  Device metadata retrieval from the Internet must be prevented.
+STIG ID: WN12-CC-000022  Rule ID: SV-53185r1_rule  Vuln ID: V-21964
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns11_DriverSearchPlaces_DontPromptForWindowsUpdate_2">Rule Title:  Users must not be prompted to search Windows Update for device drivers.
+STIG ID: WN12-CC-000026  Rule ID: SV-53115r1_rule  Vuln ID: V-15703
+Severity: CAT III Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns11_DriverSearchPlaces_SearchOrderConfiguration">Rule Title:  Device driver searches using Windows Update must be prevented.
+STIG ID: WN12-CC-000024  Rule ID: SV-53186r1_rule  Vuln ID: V-21965
+Severity: CAT III Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns11_DriverSearchPlaces_SearchServerConfiguration">Rule Title:  Device driver updates must only search managed servers, not Windows Update.
+STIG ID: WN12-CC-000025  Rule ID: SV-51607r1_rule  Vuln ID: V-36678
+Severity: CAT III Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns12_DisableOnline">Rule Title:  Windows Media Digital Rights Management (DRM) must be prevented from accessing the Internet.
+STIG ID: WN12-CC-000120  Rule ID: SV-53139r1_rule  Vuln ID: V-15722
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns14_BlockUserInputMethodsForSignIn">Rule Title:  Copying of user input methods to the system account for sign-in must be prevented.
+STIG ID: WN12-CC-000048  Rule ID: SV-51610r1_rule  Vuln ID: V-36681
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns15_CSE_Registry">Rule Title:  Group Policy objects must be reprocessed even if they have not changed.
+STIG ID: WN12-CC-000028  Rule ID: SV-52933r1_rule  Vuln ID: V-4448
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns15_DisableBackgroundPolicy">Rule Title:  Group Policies must be refreshed in the background if the user is logged on.
+STIG ID: WN12-CC-000029  Rule ID: SV-52906r1_rule  Vuln ID: V-3469
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns16_PreventHandwritingErrorReports_2">Rule Title:  Errors in handwriting recognition on tablet PCs must not be reported to Microsoft.
+STIG ID: WN12-CC-000035  Rule ID: SV-53116r1_rule  Vuln ID: V-15704
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns17_CEIPEnable">Rule Title:  The Windows Customer Experience Improvement Program must be disabled.
+STIG ID: WN12-CC-000045  Rule ID: SV-53143r1_rule  Vuln ID: V-16020
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns17_DisableHTTPPrinting_2">Rule Title:  Downloading print driver packages over HTTP must be prevented.
+STIG ID: WN12-CC-000032  Rule ID: SV-52998r1_rule  Vuln ID: V-14260
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns17_DriverSearchPlaces_DontSearchWindowsUpdate">Rule Title:  Windows must be prevented from using Windows Update to search for drivers.
+STIG ID: WN12-CC-000047  Rule ID: SV-53000r1_rule  Vuln ID: V-14261
+Severity: CAT II Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns17_EventViewer_DisableLinks">Rule Title:  Event Viewer Events.asp links must be turned off.
+STIG ID: WN12-CC-000033  Rule ID: SV-53017r1_rule  Vuln ID: V-15672
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns17_ShellNoUseInternetOpenWith_2">Rule Title:  The Internet File Association service must be turned off.
+STIG ID: WN12-CC-000038  Rule ID: SV-53021r1_rule  Vuln ID: V-15674
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns17_ShellNoUseStoreOpenWith_2">Rule Title:  Access to the Windows Store must be turned off.
+STIG ID: WN12-CC-000030  Rule ID: SV-51609r1_rule  Vuln ID: V-36680
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns18_Allow_Basic_Feed_Auth_In_Clear">Rule Title:  Basic authentication for RSS feeds over HTTP must be turned off.
+STIG ID: WN12-CC-000106  Rule ID: SV-51749r1_rule  Vuln ID: V-36709
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns18_Disable_Downloading_of_Enclosures">Rule Title:  Attachments must be prevented from being downloaded from RSS feeds.
+STIG ID: WN12-CC-000105  Rule ID: SV-53040r1_rule  Vuln ID: V-15682
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns19_LLTD_EnableLLTDIO">Rule Title:  The Mapper I/O network protocol (LLTDIO) driver must be disabled.
+STIG ID: WN12-CC-000001  Rule ID: SV-53072r1_rule  Vuln ID: V-15696
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns19_LLTD_EnableRspndr">Rule Title:  The Responder network protocol driver must be disabled.
+STIG ID: WN12-CC-000002  Rule ID: SV-53081r1_rule  Vuln ID: V-15697
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns20_MsdtSupportProvider">Rule Title:  Microsoft Support Diagnostic Tool (MSDT) interactive communication with Microsoft must be prevented.
+STIG ID: WN12-CC-000066  Rule ID: SV-53187r1_rule  Vuln ID: V-21967
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns21_AlwaysInstallElevated_2">Rule Title:  The Windows Installer Always install with elevated privileges option must be disabled.
+STIG ID: WN12-CC-000116  Rule ID: SV-52954r1_rule  Vuln ID: V-34974
+Severity: CAT I Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns21_EnableUserControl">Rule Title:  Users must be prevented from changing installation options.
+STIG ID: WN12-CC-000115  Rule ID: SV-53061r1_rule  Vuln ID: V-15685
+Severity: CAT II Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns21_MSI_DisableLUAPatching">Rule Title:  Nonadministrators must be prevented from applying vendor-signed updates.
+STIG ID: WN12-CC-000118  Rule ID: SV-53065r1_rule  Vuln ID: V-15686
+Severity: CAT III Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns21_SafeForScripting">Rule Title:  Users must be notified if a web-based program attempts to install software.
+STIG ID: WN12-CC-000117  Rule ID: SV-53056r2_rule  Vuln ID: V-15684
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns22_DisableAutoUpdate">Rule Title:  Windows Media Player must be configured to prevent automatic checking for updates.
+STIG ID: WN12-CC-000122  Rule ID: SV-53130r1_rule  Vuln ID: V-3480
+Severity: CAT II Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns22_DisableSetupFirstUseConfiguration">Rule Title:  Users must not be presented with Privacy and Installation options on first use of Windows Media Player.
+STIG ID: WN12-CC-000121  Rule ID: SV-53069r1_rule  Vuln ID: V-15687
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns23_NC_AllowNetBridge_NLA">Rule Title:  Network Bridges must be prohibited in Windows.
+STIG ID: WN12-CC-000004  Rule ID: SV-53014r2_rule  Vuln ID: V-15667
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns23_NC_ForceTunneling">Rule Title:  All Direct Access traffic must be routed through the internal network.
+STIG ID: WN12-CC-000006  Rule ID: SV-53183r1_rule  Vuln ID: V-21961
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns23_NC_StdDomainUserSetLocation">Rule Title:  Domain users must be required to elevate when setting a networks location.
+STIG ID: WN12-CC-000005  Rule ID: SV-53182r1_rule  Vuln ID: V-21960
+Severity: CAT III Class: Unclass
+CCI: CCI-001084
+NIST SP 800-53 :: SC-3
+NIST SP 800-53A :: SC-3.1 (ii)
+NIST SP 800-53 Revision 4 :: SC-3</string>
+      <string id="ns24_WdiScenarioExecutionPolicy">Rule Title:  Responsiveness events must be prevented from being aggregated and sent to Microsoft.
+STIG ID: WN12-CC-000068  Rule ID: SV-53128r1_rule  Vuln ID: V-21970
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns25_P2P_Disabled">Rule Title:  Windows Peer-to-Peer networking services must be turned off.
+STIG ID: WN12-CC-000003  Rule ID: SV-53012r1_rule  Vuln ID: V-15666
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns26_VideoPowerDownTimeOutAC_2">Rule Title:  The display must turn off after 20 minutes of inactivity when the system is plugged in.
+STIG ID: WN12-CC-000057  Rule ID: SV-51736r1_rule  Vuln ID: V-36691
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns26_VideoPowerDownTimeOutDC_2">Rule Title:  The display must turn off after 20 minutes of inactivity when the system is running on battery.
+STIG ID: WN12-CC-000056  Rule ID: SV-51735r1_rule  Vuln ID: V-36690
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns27_DoNotInstallCompatibleDriverFromWindowsUpdate">Rule Title:  Windows Update must be prevented from searching for point and print drivers.
+STIG ID: WN12-CC-000016  Rule ID: SV-53184r1_rule  Vuln ID: V-21963
+Severity: CAT III Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns28_RA_Logging">Rule Title:  Remote Assistance log files must be generated.
+STIG ID: WN12-CC-000062  Rule ID: SV-53133r1_rule  Vuln ID: V-15707
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns28_RA_Unsolicit">Rule Title:  Solicited Remote Assistance must not be allowed.
+STIG ID: WN12-CC-000059  Rule ID: SV-52885r1_rule  Vuln ID: V-3343
+Severity: CAT I Class: Unclass
+IA Controls:ECSC-1
+CCI: CCI-001090
+NIST SP 800-53 :: SC-4
+NIST SP 800-53A :: SC-4.1
+NIST SP 800-53 Revision 4 :: SC-4</string>
+      <string id="ns29_RpcEnableAuthEpResolution">Rule Title:  Client computers must be required to authenticate for RPC communication.
+STIG ID: WN12-CC-000063  Rule ID: SV-52989r1_rule  Vuln ID: V-14254
+Severity: CAT II Class: Unclass
+CCI: CCI-001967
+NIST SP 800-53 Revision 4 :: IA-3 (1)</string>
+      <string id="ns29_RpcRestrictRemoteClients">Rule Title:  Unauthenticated RPC clients must be restricted from connecting to the RPC server.
+STIG ID: WN12-CC-000064-MS  Rule ID: SV-52988r2_rule  Vuln ID: V-14253
+Severity: CAT II Class: Unclass
+CCI: CCI-001967
+NIST SP 800-53 Revision 4 :: IA-3 (1)</string>
+      <string id="ns30_BetterWhenConnected">Rule Title:  Access to Windows Online Troubleshooting Service (WOTS) must be prevented.
+STIG ID: WN12-CC-000067  Rule ID: SV-53188r1_rule  Vuln ID: V-21969
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns31_DisableLocation_2">Rule Title:  The location feature must be turned off.
+STIG ID: WN12-CC-000095  Rule ID: SV-51748r2_rule  Vuln ID: V-36708
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns32_Servicing">Rule Title:  Optional component installation and component repair must be prevented from using Windows Update.
+STIG ID: WN12-CC-000018  Rule ID: SV-51606r1_rule  Vuln ID: V-36677
+Severity: CAT III Class: Unclass
+CCI: CCI-001812
+NIST SP 800-53 Revision 4 :: CM-11 (2)</string>
+      <string id="ns33_6to4_State">Rule Title:  The 6to4 IPv6 transition technology must be disabled.
+STIG ID: WN12-CC-000007  Rule ID: SV-52970r1_rule  Vuln ID: V-26575
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns33_IPHTTPS_ClientState">Rule Title:  The IP-HTTPS IPv6 transition technology must be disabled.
+STIG ID: WN12-CC-000008  Rule ID: SV-52969r1_rule  Vuln ID: V-26576
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns33_IP_Stateless_Autoconfiguration_Limits_State">Rule Title:  IP stateless autoconfiguration limits state must be enabled.
+STIG ID: WN12-CC-000011  Rule ID: SV-51605r1_rule  Vuln ID: V-36673
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns33_ISATAP_State">Rule Title:  The ISATAP IPv6 transition technology must be disabled.
+STIG ID: WN12-CC-000009  Rule ID: SV-52968r1_rule  Vuln ID: V-26577
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns33_Teredo_State">Rule Title:  The Teredo IPv6 transition technology must be disabled.
+STIG ID: WN12-CC-000010  Rule ID: SV-52967r1_rule  Vuln ID: V-26578
+Severity: CAT II Class: Unclass
+CCI: CCI-000382
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (iii)
+NIST SP 800-53 Revision 4 :: CM-7 b</string>
+      <string id="ns34_TS_CLIENT_COM">Rule Title:  Users must be prevented from mapping local COM ports and redirecting data from the Remote Desktop Session Host to local COM ports.  (Remote Desktop Services Role).
+STIG ID: WN12-CC-000132  Rule ID: SV-52224r2_rule  Vuln ID: V-15997
+Severity: CAT II Class: Unclass
+CCI: CCI-002314
+NIST SP 800-53 Revision 4 :: AC-17 (1)</string>
+      <string id="ns34_TS_CLIENT_DISABLE_PASSWORD_SAVING_2">Rule Title:  Passwords must not be saved in the Remote Desktop Client.
+STIG ID: WN12-CC-000096  Rule ID: SV-52958r1_rule  Vuln ID: V-14247
+Severity: CAT II Class: Unclass
+CCI: CCI-002038
+NIST SP 800-53 Revision 4 :: IA-11</string>
+      <string id="ns34_TS_CLIENT_DRIVE_M">Rule Title:  Local drives must be prevented from sharing with Remote Desktop Session Hosts.  (Remote Desktop Services Role).
+STIG ID: WN12-CC-000098  Rule ID: SV-52959r1_rule  Vuln ID: V-14249
+Severity: CAT II Class: Unclass
+CCI: CCI-001090
+NIST SP 800-53 :: SC-4
+NIST SP 800-53A :: SC-4.1
+NIST SP 800-53 Revision 4 :: SC-4</string>
+      <string id="ns34_TS_CLIENT_LPT">Rule Title:  Users must be prevented from mapping local LPT ports and redirecting data from the Remote Desktop Session Host to local LPT ports.  (Remote Desktop Services Role).
+STIG ID: WN12-CC-000133  Rule ID: SV-52226r2_rule  Vuln ID: V-15998
+Severity: CAT II Class: Unclass
+CCI: CCI-002314
+NIST SP 800-53 Revision 4 :: AC-17 (1)</string>
+      <string id="ns34_TS_CLIENT_PNP">Rule Title:  Users must be prevented from redirecting Plug and Play devices to the Remote Desktop Session Host.  (Remote Desktop Services Role).
+STIG ID: WN12-CC-000135  Rule ID: SV-52229r2_rule  Vuln ID: V-15999
+Severity: CAT II Class: Unclass
+CCI: CCI-002314
+NIST SP 800-53 Revision 4 :: AC-17 (1)</string>
+      <string id="ns34_TS_DISABLE_CONNECTIONS">Allow Remote Desktop Services</string>
+      <string id="ns34_TS_ENCRYPTION_POLICY">Rule Title:  Remote Desktop Services must be configured with the client connection encryption set to the required level.
+STIG ID: WN12-CC-000100  Rule ID: SV-52899r2_rule  Vuln ID: V-3454
+Severity: CAT II Class: Unclass
+CCI: CCI-000068
+NIST SP 800-53 :: AC-17 (2)
+NIST SP 800-53A :: AC-17 (2).1
+NIST SP 800-53 Revision 4 :: AC-17 (2)
+
+CCI: CCI-002890
+NIST SP 800-53 Revision 4 :: MA-4 (6)</string>
+      <string id="ns34_TS_NoDisconnectMenu">Rule Title:  The system must be configured to remove the Disconnect option from the Shut Down dialog box on the Remote Desktop Client.  (Remote Desktop Services Role).
+STIG ID: WN12-CC-000137  Rule ID: SV-52232r2_rule  Vuln ID: V-16005
+Severity: CAT III Class: Unclass
+CCI: CCI-002314
+NIST SP 800-53 Revision 4 :: AC-17 (1)</string>
+      <string id="ns34_TS_PASSWORD">Rule Title:  Remote Desktop Services must always prompt a client for passwords upon connection.
+STIG ID: WN12-CC-000099  Rule ID: SV-52898r1_rule  Vuln ID: V-3453
+Severity: CAT II Class: Unclass
+CCI: CCI-002038
+NIST SP 800-53 Revision 4 :: IA-11
+More user friendly</string>
+      <string id="ns34_TS_RPC_ENCRYPTION">Rule Title:  The Remote Desktop Session Host must require secure RPC communications.
+STIG ID: WN12-CC-000130  Rule ID: SV-52932r2_rule  Vuln ID: V-4447
+Severity: CAT II Class: Unclass
+CCI: CCI-001453
+NIST SP 800-53 :: AC-17 (2)
+NIST SP 800-53A :: AC-17 (2).1
+NIST SP 800-53 Revision 4 :: AC-17 (2)</string>
+      <string id="ns34_TS_SESSIONS_Disconnected_Timeout_2">Rule Title:  Remote Desktop Services must be configured to set a time limit for disconnected sessions.
+STIG ID: WN12-CC-000102  Rule ID: SV-52902r2_rule  Vuln ID: V-3457
+Severity: CAT II Class: Unclass
+CCI: CCI-001133
+NIST SP 800-53 :: SC-10
+NIST SP 800-53A :: SC-10.1 (ii)
+NIST SP 800-53 Revision 4 :: SC-10
+
+CCI: CCI-002361
+NIST SP 800-53 Revision 4 :: AC-12</string>
+      <string id="ns34_TS_SESSIONS_Idle_Limit_2">Rule Title:  Remote Desktop Services must be configured to disconnect an idle session after the specified time period.
+STIG ID: WN12-CC-000101  Rule ID: SV-52903r2_rule  Vuln ID: V-3458
+Severity: CAT II Class: Unclass
+CCI: CCI-001133
+NIST SP 800-53 :: SC-10
+NIST SP 800-53A :: SC-10.1 (ii)
+NIST SP 800-53 Revision 4 :: SC-10
+
+CCI: CCI-002361
+NIST SP 800-53 Revision 4 :: AC-12</string>
+      <string id="ns34_TS_SMART_CARD">Rule Title:  The system must be configured to ensure smart card devices can be redirected to the Remote Desktop session.  (Remote Desktop Services Role).
+STIG ID: WN12-CC-000134  Rule ID: SV-52230r2_rule  Vuln ID: V-16000
+Severity: CAT II Class: Unclass
+CCI: CCI-002314
+NIST SP 800-53 Revision 4 :: AC-17 (1)</string>
+      <string id="ns34_TS_TEMP_DELETE">Rule Title:  Remote Desktop Services must delete temporary folders when a session is terminated.
+STIG ID: WN12-CC-000103  Rule ID: SV-52901r1_rule  Vuln ID: V-3456
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns34_TS_TEMP_PER_SESSION">Rule Title:  Remote Desktop Services must be configured to use session-specific temporary folders.
+STIG ID: WN12-CC-000104  Rule ID: SV-52900r1_rule  Vuln ID: V-3455
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns35_WCN_DisableWcnUi_2">Rule Title:  The Windows Connect Now wizards must be disabled.
+STIG ID: WN12-CC-000013  Rule ID: SV-53089r1_rule  Vuln ID: V-15699
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns35_WCN_EnableRegistrar">Rule Title:  The configuration of wireless devices using Windows Connect Now must be disabled.
+STIG ID: WN12-CC-000012  Rule ID: SV-53085r1_rule  Vuln ID: V-15698
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns36_SpynetReporting">Rule Title:  Microsoft Active Protection Service membership must be disabled.
+STIG ID: WN12-CC-000111  Rule ID: SV-53134r2_rule  Vuln ID: V-15713
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns37_WerArchive_2">Rule Title:  The system must be configured to archive error reports.
+STIG ID: WN12-ER-000010  Rule ID: SV-71889r1_rule  Vuln ID: V-57463
+Severity: CAT II Class: Unclass
+CCI: CCI-001312
+NIST SP 800-53 :: SI-11 b
+NIST SP 800-53A :: SI-11.1 (iii)
+NIST SP 800-53 Revision 4 :: SI-11 a</string>
+      <string id="ns37_WerBypassDataThrottling_2">Rule Title:  The system must be configured to collect multiple error reports of the same event type.
+STIG ID: WN12-ER-000005  Rule ID: SV-71847r1_rule  Vuln ID: V-57453
+Severity: CAT II Class: Unclass
+CCI: CCI-001312
+NIST SP 800-53 :: SI-11 b
+NIST SP 800-53A :: SI-11.1 (iii)
+NIST SP 800-53 Revision 4 :: SI-11 a</string>
+      <string id="ns37_WerCER">Rule Title:  The system must be configured to store error reports locally, on the system or in the enclave, and not send them to Microsoft.
+STIG ID: WN12-ER-000007  Rule ID: SV-71859r1_rule  Vuln ID: V-57457
+Severity: CAT II Class: Unclass
+CCI: CCI-001312
+NIST SP 800-53 :: SI-11 b
+NIST SP 800-53A :: SI-11.1 (iii)
+NIST SP 800-53 Revision 4 :: SI-11 a</string>
+      <string id="ns37_WerConsentOverride_2">Rule Title:  The system must be configured to permit the default consent levels of Windows Error Reporting to override any other consent policy setting.
+STIG ID: WN12-ER-000018  Rule ID: SV-71971r1_rule  Vuln ID: V-57479
+Severity: CAT II Class: Unclass
+CCI: CCI-001312
+NIST SP 800-53 :: SI-11 b
+NIST SP 800-53A :: SI-11.1 (iii)
+NIST SP 800-53 Revision 4 :: SI-11 a</string>
+      <string id="ns37_WerDefaultConsent_2">Rule Title:  The system must be configured to automatically consent to send all data requested by a local or DOD-wide error collection site.
+STIG ID: WN12-ER-000017  Rule ID: SV-71961r1_rule  Vuln ID: V-57477
+Severity: CAT II Class: Unclass
+CCI: CCI-001312
+NIST SP 800-53 :: SI-11 b
+NIST SP 800-53A :: SI-11.1 (iii)
+NIST SP 800-53 Revision 4 :: SI-11 a</string>
+      <string id="ns37_WerDisable_2">Rule Title:  The system must be configured to generate error reports.
+STIG ID: WN12-ER-000002  Rule ID: SV-71721r1_rule  Vuln ID: V-15715
+Severity: CAT II Class: Unclass
+CCI: CCI-001312
+NIST SP 800-53 :: SI-11 b
+NIST SP 800-53A :: SI-11.1 (iii)
+NIST SP 800-53 Revision 4 :: SI-11 a</string>
+      <string id="ns37_WerDoNotShowUI">Rule Title:  The system must be configured to prevent the display of error messages to the user.
+STIG ID: WN12-ER-000006  Rule ID: SV-71851r1_rule  Vuln ID: V-57455
+Severity: CAT II Class: Unclass
+CCI: CCI-001314
+NIST SP 800-53 :: SI-11 c
+NIST SP 800-53A :: SI-11.1 (iv)
+NIST SP 800-53 Revision 4 :: SI-11 b</string>
+      <string id="ns37_WerNoLogging_2">Rule Title:  The system must be configured to save Error Reporting events and messages to the system event log.
+STIG ID: WN12-ER-000003  Rule ID: SV-53135r2_rule  Vuln ID: V-15714
+Severity: CAT II Class: Unclass
+CCI: CCI-001312
+NIST SP 800-53 :: SI-11 b
+NIST SP 800-53A :: SI-11.1 (iii)
+NIST SP 800-53 Revision 4 :: SI-11 a</string>
+      <string id="ns37_WerNoSecondLevelData_2">Rule Title:  The system must be configured to allow a local or DOD-wide collector to request additional error reporting diagnostic data to be sent.
+STIG ID: WN12-ER-000004  Rule ID: SV-53136r2_rule  Vuln ID: V-15717
+Severity: CAT II Class: Unclass
+CCI: CCI-001312
+NIST SP 800-53 :: SI-11 b
+NIST SP 800-53A :: SI-11.1 (iii)
+NIST SP 800-53 Revision 4 :: SI-11 a</string>
+      <string id="ns37_WerQueue_2">Rule Title:  The system must be configured to queue error reports until a local or DOD-wide collector is available.
+STIG ID: WN12-ER-000013  Rule ID: SV-71921r1_rule  Vuln ID: V-57469
+Severity: CAT II Class: Unclass
+CCI: CCI-001312
+NIST SP 800-53 :: SI-11 b
+NIST SP 800-53A :: SI-11.1 (iii)
+NIST SP 800-53 Revision 4 :: SI-11 a</string>
+      <string id="ns38_EnableSmartScreen">Rule Title:  The Windows SmartScreen must be turned off.
+STIG ID: WN12-CC-000088  Rule ID: SV-51747r2_rule  Vuln ID: V-36707
+Severity: CAT III Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns38_ShellProtocolProtectedModeTitle_2">Rule Title:  File Explorer shell protocol must run in protected mode.
+STIG ID: WN12-CC-000091  Rule ID: SV-53045r1_rule  Vuln ID: V-15683
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns39_NoDataExecutionPrevention">Rule Title:  Explorer Data Execution Prevention must be enabled.
+STIG ID: WN12-CC-000089  Rule ID: SV-53125r1_rule  Vuln ID: V-21980
+Severity: CAT II Class: Unclass
+CCI: CCI-002824
+NIST SP 800-53 Revision 4 :: SI-16</string>
+      <string id="ns39_NoHeapTerminationOnCorruption">ule Title:  Turning off File Explorer heap termination on corruption must be disabled.
+STIG ID: WN12-CC-000090  Rule ID: SV-53137r1_rule  Vuln ID: V-15718
+Severity: CAT III Class: Unclass
+CCI: CCI-002385
+NIST SP 800-53 Revision 4 :: SC-5</string>
+      <string id="ns40_DisableLockScreenAppNotifications">Rule Title:  App notifications on the lock screen must be turned off.
+STIG ID: WN12-CC-000052  Rule ID: SV-51612r1_rule  Vuln ID: V-36687
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns40_DontDisplayNetworkSelectionUI">Rule Title:  The network selection user interface (UI) must not be displayed on the logon screen (Windows 2012 R2).
+STIG ID: WN12-CC-000140  Rule ID: SV-56346r2_rule  Vuln ID: V-43240
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns40_EnumerateLocalUsers">Rule Title:  Local users on domain-joined computers must not be enumerated.
+STIG ID: WN12-CC-000051  Rule ID: SV-51611r1_rule  Vuln ID: V-36684
+Severity: CAT II Class: Unclass
+CCI: CCI-000381
+NIST SP 800-53 :: CM-7
+NIST SP 800-53A :: CM-7.1 (ii)
+NIST SP 800-53 Revision 4 :: CM-7 a</string>
+      <string id="ns40_LogonType">Rule Title:  The classic logon screen must be required for user logons.
+STIG ID: WN12-CC-000049  Rule ID: SV-53036r1_rule  Vuln ID: V-15680
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns41_AutomaticRestartSignOn">Rule Title:  Automatically signing in the last interactive user after a system-initiated restart must be disabled (Windows 2012 R2).
+STIG ID: WN12-CC-000145  Rule ID: SV-56355r2_rule  Vuln ID: V-43245
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns41_ReportCachedLogonPolicyDescription">Rule Title:  Users must be notified if the logon server was inaccessible and cached credentials were used.
+STIG ID: WN12-CC-000119  Rule ID: SV-53138r2_rule  Vuln ID: V-15719
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns42_AllowBasic_1">Rule Title:  The Windows Remote Management (WinRM) service must not use Basic authentication.
+STIG ID: WN12-CC-000126  Rule ID: SV-51755r2_rule  Vuln ID: V-36718
+Severity: CAT I Class: Unclass
+CCI: CCI-000877
+NIST SP 800-53 :: MA-4 c
+NIST SP 800-53A :: MA-4.1 (iv)
+NIST SP 800-53 Revision 4 :: MA-4 c</string>
+      <string id="ns42_AllowBasic_2">Rule Title:  The Windows Remote Management (WinRM) client must not use Basic authentication.
+STIG ID: WN12-CC-000123  Rule ID: SV-51752r1_rule  Vuln ID: V-36712
+Severity: CAT I Class: Unclass
+CCI: CCI-000877
+NIST SP 800-53 :: MA-4 c
+NIST SP 800-53A :: MA-4.1 (iv)
+NIST SP 800-53 Revision 4 :: MA-4 c</string>
+      <string id="ns42_AllowUnencrypted_1">Rule Title:  The Windows Remote Management (WinRM) service must not allow unencrypted traffic.
+STIG ID: WN12-CC-000127  Rule ID: SV-51756r2_rule  Vuln ID: V-36719
+Severity: CAT II Class: Unclass
+CCI: CCI-002890
+NIST SP 800-53 Revision 4 :: MA-4 (6)
+
+CCI: CCI-003123
+NIST SP 800-53 Revision 4 :: MA-4 (6)</string>
+      <string id="ns42_AllowUnencrypted_2">Rule Title:  The Windows Remote Management (WinRM) client must not allow unencrypted traffic.
+STIG ID: WN12-CC-000124  Rule ID: SV-51753r2_rule  Vuln ID: V-36713
+Severity: CAT II Class: Unclass
+CCI: CCI-002890
+NIST SP 800-53 Revision 4 :: MA-4 (6)
+
+CCI: CCI-003123
+NIST SP 800-53 Revision 4 :: MA-4 (6)</string>
+      <string id="ns42_DisableRunAs">Rule Title:  The Windows Remote Management (WinRM) service must not store RunAs credentials.
+STIG ID: WN12-CC-000128  Rule ID: SV-51757r1_rule  Vuln ID: V-36720
+Severity: CAT II Class: Unclass
+CCI: CCI-002038
+NIST SP 800-53 Revision 4 :: IA-11</string>
+      <string id="ns42_DisallowDigest">Rule Title:  The Windows Remote Management (WinRM) client must not use Digest authentication.
+STIG ID: WN12-CC-000125  Rule ID: SV-51754r1_rule  Vuln ID: V-36714
+Severity: CAT II Class: Unclass
+CCI: CCI-000877
+NIST SP 800-53 :: MA-4 c
+NIST SP 800-53A :: MA-4.1 (iv)
+NIST SP 800-53 Revision 4 :: MA-4 c</string>
+      <string id="ns43_DisableAutoInstall">Rule Title:  Automatic download of updates from the Windows Store must be turned off.
+STIG ID: WN12-CC-000109  Rule ID: SV-51750r2_rule  Vuln ID: V-36710
+Severity: CAT III Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+      <string id="ns43_RemoveWindowsStore_2">Rule Title:  The Windows Store application must be turned off.
+STIG ID: WN12-CC-000110  Rule ID: SV-51751r2_rule  Vuln ID: V-36711
+Severity: CAT II Class: Unclass
+CCI: CCI-000366
+NIST SP 800-53 :: CM-6 b
+NIST SP 800-53A :: CM-6.1 (iv)
+NIST SP 800-53 Revision 4 :: CM-6 b</string>
+    </stringTable>
+  </resources>
+</policyComments>
